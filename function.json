@@ -1,0 +1,8 @@
+{
+  "FunctionName": "line-photo-to-google-photo",
+  "Handler": "index.handler",
+  "MemorySize": 128,
+  "Role": "arn:aws:iam::107931263385:role/YOUR_LAMBDA_ROLE_NAME",
+  "Runtime": "nodejs10.x",
+  "Timeout": 3
+}
