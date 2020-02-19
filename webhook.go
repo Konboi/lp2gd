@@ -78,5 +78,11 @@ func WebHookHandler(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 	t := client.Topic(topic)
-	t.Publish(r.Context(), &pubsub.Message{Data: data})
+	msgID, err := t.Publish(r.Context(), &pubsub.Message{Data: data}).Get(r.Context())
+	if err != nil {
+		log.Printf("[ERROR] publish message. err:%v", err)
+		w.WriteHeader(http.StatusInternalServerError)
+		return
+	}
+	fmt.Fprintf(w, "OK id:%s", msgID)
 }
