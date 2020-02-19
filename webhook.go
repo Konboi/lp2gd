@@ -57,6 +57,7 @@ func WebHookHandler(w http.ResponseWriter, r *http.Request) {
 
 	if len(ids) == 0 {
 		fmt.Fprintf(w, "OK")
+		return
 	}
 
 	msg := Message{
