@@ -1,4 +1,4 @@
-module github.com/Konboi/lp2gp
+module github.com/Konboi/lp2gd
 
 go 1.13
 

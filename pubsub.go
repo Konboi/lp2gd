@@ -1,4 +1,4 @@
-package lp2gp
+package lp2gd
 
 import (
 	"context"
@@ -34,12 +34,10 @@ func HandlePubSub(ctx context.Context, m PubSubMessage) error {
 	privateKey := strings.Replace(os.Getenv("PRIVATE_KEY"), `\n`, "\n", -1)
 	privateKeyID := os.Getenv("PRIVATE_KEY_ID")
 	if email == "" || privateKey == "" || privateKeyID == "" {
-		log.Printf("[ERROR] there are required. email:%s privateKeyID:%s privateKey:%s\n",
-			email, privateKeyID, privateKey,
-		)
+		log.Printf("[ERROR] email,private-key, private-key-id are required.")
 		return fmt.Errorf("email or private key id or private key is empty")
 	}
-	log.Println("key:", privateKey)
+
 	scopes := []string{
 		drive.DriveScope,
 	}
@@ -85,7 +83,7 @@ func upload(ctx context.Context, cli *drive.Service, contentID string) error {
 		return err
 	}
 
-	log.Printf("type:%s length:%d\n", res.ContentType, res.ContentLength)
+	log.Printf("content-id:%s type:%s length:%d\n", contentID, res.ContentType, res.ContentLength)
 	f, err := cli.Files.Create(&drive.File{
 		Name: fmt.Sprintf("%s.png", contentID),
 		Parents: []string{

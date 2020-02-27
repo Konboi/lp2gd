@@ -1,4 +1,4 @@
-package lp2gp
+package lp2gd
 
 import (
 	"encoding/json"
