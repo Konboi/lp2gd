@@ -13,7 +13,7 @@ import (
 
 const ContentEndpoint = "https://api-data.line.me/v2/bot/message/%s/content"
 
-func WebHookHandler(w http.ResponseWriter, r *http.Request) {
+func WebhookHandler(w http.ResponseWriter, r *http.Request) {
 	defer r.Body.Close()
 
 	secret := os.Getenv("LINE_CHANNEL_SECRET")
