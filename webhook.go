@@ -28,7 +28,7 @@ func WebhookHandler(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	topic := os.Getenv("GCP_PUBSUB_TOPIC")
+	topic := os.Getenv("GCP_PUBSUB_FULL_TOPIC")
 	if topic == "" {
 		w.WriteHeader(http.StatusInternalServerError)
 		return
