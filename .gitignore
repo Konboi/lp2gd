@@ -20,3 +20,4 @@ vendor/
 
 # env
 .envrc
+env.yml
