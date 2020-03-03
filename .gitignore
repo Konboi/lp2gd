@@ -14,3 +14,10 @@
 # Dependency directories (remove the comment below to include it)
 vendor/
 *.zip
+
+# mac
+*.DS_Store
+
+# env
+.envrc
+env.yml

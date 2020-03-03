@@ -30,9 +30,9 @@ func HandlePubSub(ctx context.Context, m PubSubMessage) error {
 		return err
 	}
 
-	email := os.Getenv("CLIENT_EMAIL")
-	privateKey := strings.Replace(os.Getenv("PRIVATE_KEY"), `\n`, "\n", -1)
-	privateKeyID := os.Getenv("PRIVATE_KEY_ID")
+	email := os.Getenv("UPLOAD_SERVICE_ACCOUNT_CLIENT_EMAIL")
+	privateKey := strings.Replace(os.Getenv("UPLOAD_SERVICE_ACCOUNT_PRIVATE_KEY"), `\n`, "\n", -1)
+	privateKeyID := os.Getenv("UPLOAD_SERVICE_ACCOUNT_PRIVATE_KEY_ID")
 	if email == "" || privateKey == "" || privateKeyID == "" {
 		log.Printf("[ERROR] email,private-key, private-key-id are required.")
 		return fmt.Errorf("email or private key id or private key is empty")
