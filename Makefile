@@ -4,10 +4,6 @@ dependencies:
 	@go mod tidy
 	@./tools/install.sh
 
-.PHONY: clean
-clean:
-	@rm -f *.zip
-
 .PHONY: dump-env
 dump-env:
 	@envsubst < env.yml.tmpl > env.yml
