@@ -4,7 +4,7 @@ go 1.13
 
 require (
 	cloud.google.com/go v0.53.0 // indirect
-	cloud.google.com/go/pubsub v1.2.0
+	cloud.google.com/go/pubsub v1.3.0
 	github.com/a8m/envsubst v1.1.0
 	github.com/line/line-bot-sdk-go v7.2.0+incompatible
 	golang.org/x/net v0.0.0-20200219183655-46282727080f // indirect
