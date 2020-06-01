@@ -130,6 +130,8 @@ github.com/line/line-bot-sdk-go v7.1.0+incompatible h1:HiIhyTO0cuZFKpIu1DoOHvG7S
 github.com/line/line-bot-sdk-go v7.1.0+incompatible/go.mod h1:0RjLjJEAU/3GIcHkC3av6O4jInAbt25nnZVmOFUgDBg=
 github.com/line/line-bot-sdk-go v7.2.0+incompatible h1:RnnXMEAvP8LpuPqTiDaU1LCgU9yVHXFRH74AdGcbyPs=
 github.com/line/line-bot-sdk-go v7.2.0+incompatible/go.mod h1:0RjLjJEAU/3GIcHkC3av6O4jInAbt25nnZVmOFUgDBg=
+github.com/line/line-bot-sdk-go v7.4.0+incompatible h1:YIXstgzt9OBRWEUYxZZMsR4rdDIK8wc3RntG/s6kD4s=
+github.com/line/line-bot-sdk-go v7.4.0+incompatible/go.mod h1:0RjLjJEAU/3GIcHkC3av6O4jInAbt25nnZVmOFUgDBg=
 github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZbAQM=
 github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
 github.com/prometheus/client_model v0.0.0-20190812154241-14fe0d1b01d4 h1:gQz4mCbXsO+nc9n1hCxHcGA3Zx3Eo+UHZoInFGUIXNM=
