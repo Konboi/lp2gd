@@ -42,6 +42,8 @@ github.com/BurntSushi/xgb v0.0.0-20160522181843-27f122750802 h1:1BDTz0u9nC3//pOC
 github.com/BurntSushi/xgb v0.0.0-20160522181843-27f122750802/go.mod h1:IVnqGOEym/WlBOVXweHU+Q+/VP0lqqI8lqeDx9IjBqo=
 github.com/a8m/envsubst v1.1.0 h1:d+14SVq1lbI+JuxhEqYduWofZ0/qQHatwm3TBzvdzaE=
 github.com/a8m/envsubst v1.1.0/go.mod h1:91m2Q6AZE0w4WD/laQam2MtWq6FxJVm7UqcB30DeYxw=
+github.com/a8m/envsubst v1.2.0 h1:yvzAhJD2QKdo35Ut03wIfXQmg+ta3wC/1bskfZynz+Q=
+github.com/a8m/envsubst v1.2.0/go.mod h1:PpvLvNWa+Rvu/10qXmFbFiGICIU5hZvFJNPCCkUaObg=
 github.com/census-instrumentation/opencensus-proto v0.2.1 h1:glEXhBS5PSLLv4IXzLA5yPRVX4bilULVyxxbrfOtDAk=
 github.com/census-instrumentation/opencensus-proto v0.2.1/go.mod h1:f6KPmirojxKA12rnyqOA5BBL4O983OfeGPqjHWSTneU=
 github.com/chzyer/logex v1.1.10 h1:Swpa1K6QvQznwJRcfTfQJmTE72DqScAa40E+fbHEXEE=
